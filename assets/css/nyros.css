@@ -5,7 +5,8 @@
     
 
 }
-body{
+body
+{
     margin:0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size : 1rem;
@@ -15,7 +16,8 @@ body{
     
 }
 
-.video-header{
+.video-header
+{
     height:100vh;
     display:flex;
     align-items:center;
@@ -23,7 +25,8 @@ body{
 
 }
 
-.wrap{
+.wrap
+{
     max-width: 960px;
     padding-left: 2rem;
     padding-right:2rem;
@@ -32,7 +35,8 @@ body{
 
 }
 
-.fullscreen-video-wrap{
+.fullscreen-video-wrap
+{
     position:absolute;
     top:0;
     left:0;
@@ -40,13 +44,15 @@ body{
     width:100%;
 }
 
-.fullscreen-video-wrap video{
+.fullscreen-video-wrap video
+{
     min-height: 100%;
     min-width: 100%;
 
 }
 
-.header-overlay{
+.header-overlay
+{
     height: 100vh;
     width:100vw;
     position: absolute;
@@ -56,27 +62,31 @@ body{
     opacity: 0.8;
 }
 
-.header-content{
+.header-content
+{
     z-index : 2;
     margin-top:20%;
     padding: 0 6rem;
 
 }
 
-.header-content h1{
+.header-content h1
+{
     font-size: 40px;
     margin-bottom:0;
 
 }
 
-.header-content p{
+.header-content p
+{
     font-size: 1rem;
     display:block;
     padding-bottom:2rem;
     margin-top:10px ;
 }
 
-.my-btn{
+.my-btn
+{
     padding:.5rem 3rem;
      border-radius: 30px;
      border: 2px solid;
@@ -86,13 +96,15 @@ body{
 
 }
 
-@media(max-width:768px){
+@media(max-width:768px)
+{
     .header-content h1{font-size:40px;}
     .header-contentp{font-size: 1rem;}
 }
 
 
-video{
+video
+{
     max-width:100%; 
     height:auto; 
 }
@@ -108,7 +120,8 @@ video{
 }
 
 
-.service-section{
+.service-section
+{
    
     padding:60px 0;
     background-size: cover;
@@ -122,13 +135,15 @@ video{
     overflow: hidden;
 }
 
-.section-title{
+.section-title
+{
     text-align:center;
     color:rgb(8, 8, 8);
     font-size:25px;
     margin-top: 30px;
 }
-.border{
+.border
+{
 
     width:70px;
     height:4px;
@@ -139,14 +154,16 @@ video{
     
 }
 
-.services-container{
+.services-container
+{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
 
-.service-box{
+.service-box
+{
     max-width:33.33%;
     padding:10px;
     text-align:center;
@@ -155,7 +172,8 @@ video{
 
 }
 
-.service-icon{
+.service-icon
+{
     display: inline-block;
     width:100px;
     height:100px;
@@ -169,38 +187,45 @@ video{
   
 
 }
-.service-icon i{
+.service-icon i
+{
     line-height:100px;
     font-size:26px;
     
 
 }
 
-.service-box:hover .service-icon {
+.service-box:hover .service-icon 
+{
     background:#3281a8;
     color:#ddd;
 
 }
 
 
-.service-title{
+.service-title
+{
     font-size:15px;
     margin-bottom:10px;
     color: black;
 }
 
-.service-desc{
+.service-desc
+{
     font-size: 13px;
     color:gray;
 }
 
-@media screen and(max-width:480px){
-    .sercive-box{
+@media screen and(max-width:480px)
+{
+    .sercive-box
+    {
         max-width:100%;
     }
 }
 
-.border1{
+.border1
+{
 
     width:50px;
     height:2px;
@@ -210,7 +235,8 @@ video{
     
 }
 
-.border2{
+.border2
+{
     width:50px;
     height:2px;
     background: #82ccdd;
@@ -218,23 +244,27 @@ video{
     
 
 }
-.a{
+.a
+{
     opacity: 0.8;
     color:grey;
      font-size:12px;
 }
 
-.b{
+.b
+{
     font-size:15px;
 }
 
-.btn1{
+.btn1
+{
 
     border-radius: 30px;
     width: 50%;
 }
 
-.d{
+.d
+{
     opacity: 0.4; 
 }
 .wk img
@@ -247,7 +277,8 @@ video{
     height:238px;
     width:450px;
 }
-.carousel-item img{
+.carousel-item img
+{
     width:20px;
     height:200px;
 }
@@ -271,7 +302,8 @@ video{
     font-size:15px;
     
 }
-.cp1{
+.cp1
+{
     margin-top:120px;
     margin-bottom:90px;
 }
@@ -285,7 +317,8 @@ video{
     position:relative;
     
 }
-.footersection p{
+.footersection p
+{
     color:whitesmoke;
 }
 .fa-2x
@@ -303,7 +336,8 @@ video{
 }
 
 
-a, a:hover,a:visited, a:focus {
+a, a:hover,a:visited, a:focus
+{
     text-decoration:none;
 }
 .wrapper
@@ -311,7 +345,8 @@ a, a:hover,a:visited, a:focus {
     width:1200px;
     margin:0 auto;
 }
-.wrapper h2{
+.wrapper h2
+{
     font-family:baloo;
     text-align:center;
     padding:5%;
@@ -335,7 +370,8 @@ a, a:hover,a:visited, a:focus {
 {
     text-align:center;
 }
-.c1{
+.c1
+{
     border:1px;
     background-color:whitesmoke;
 }
@@ -351,10 +387,12 @@ a, a:hover,a:visited, a:focus {
     width:500px;
 }
 
-.fab1{
+.fab1
+{
     margin-left: -40px;
 }
-.car1{
+.car1
+{
     height: 700px;
 }
 .footh
@@ -362,7 +400,8 @@ a, a:hover,a:visited, a:focus {
     margin-top:100px;
     font-size:15px;
 }
-.tc{
+.tc
+{
     
     height: 300px;
     padding-top:12px;
